@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Vedant's personal site</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- in body we write h1 as in heading 1 and hr as in horizontal line and br as in line break or space btw lines -->
+  <table cellspacing="20">
+    <tbody class="Generaltext">
+      <Tr>
+        <td>
+          <img src="vedant.png" alt="vedant-img" />
+        </td>
+        <td>
+          <h1 class="Heading">vedant sharma</h1>
+          <p class="Generaltext"><em>Founder of <strong><a class="Linktext" href="https://www.tsrinfra.com">TSR infrastructure</a></strong></em></p>
+          <p>I am an Civil Engineer And Entrepreneur</p>
+        </td>
+      </Tr>
+    </tbody>
+  </table>
+  <!-- UL is a unordered list or bullet points which will need list items as li to make the points body
+ as ol is a ordered list or numbered points which will also need li to make the numbered points body,
+ each point is different so you would have to make multiple li within ul or ol like <li> ab </li> -->
+  <hr />
+  <h3 class="Heading">
+    <strong>Overview of Mindset</strong>
+  </h3>
+  <ul class="Generaltext">
+    <li>
+      Learn and teach what i've learned via better collegue communication.
+    </li>
+    <li>
+      One can achieve anything, if he actually wants it and can visualise the result.
+    </li>
+    <li>
+      Lets grow togeather
+    </li>
+    <li>
+      Time is limited, dont waste it dwelling about mistakes you've made.
+    </li>
+  </ul>
+  <br />
+  <!-- 1. applying table with table than table head (thead) than table body (tbody) and then table footing (Tfoot)
+  while making tr (table row) in bitween and td (table data) in the tr to enter data in those rows.
+  border in table tag as an attribute will apply a border with a pixel size defined for eg <table border="1">
+which is ugly so we dont use it
+      -->
+  <hr />
+  <h3 class="Heading"><strong>Work Experience and Education</strong></h3>
+  <br />
+  <br />
+  <table>
+    <thead class="Heading">
+      <tr>
+        <th>
+          Date
+        </th>
+        <th>
+          Name
+        </th>
+      </tr>
+    </thead>
+    <tbody class="Generaltext">
+      <tr>
+        <td>
+          2013-2017
+        </td>
+        <td>
+          B.Tech civil From Shri Ramswaroop memorial university
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2017
+        </td>
+        <td>
+          Regional Project Manager For Aditya Traders and Engineers Pvt. Ltd.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2017-2019
+        </td>
+        <td>
+          Proprietor of Fabsteel (Manufacturing Unit)
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2019- Till Now
+        </td>
+        <td>
+          Director of TSR Infrastructure Pvt. Ltd.
+        </td>
+      </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+  <br />
+  <br />
+  <hr />
+  <h3 class="Heading">Skills</h3>
+  <table>
+    <!--Main table -->
+    <tbody class="Generaltext">
+      <tr>
+        <td>
+          <!-- nested another table inside the 1st coloumn-->
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  Autocad
+                </td>
+                <td class="stars">
+                  ★★★☆☆
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Revit
+                </td>
+                <td class="stars" >
+                  ★★☆☆☆
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td>
+          <!-- another nested table in 2nd coloumn-->
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  Html
+                </td>
+                <td class="stars">
+                  ★★★☆☆
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Photography
+                </td>
+                <td class="stars">
+                  ★★★★★
+                </td>
+            </tbody>
+          </table>
+    </tbody>
+  </table>
+  <br />
+  <p>
+    <!-- a is anchor as in hyperlink which will have href=".link." link text</a> -->
+    <a class="Linktext" href="Hobbies.html">Hobbies</a>
+    <a class="Linktext" href="Contact.html">Contact</a>
+  </p>
+</body>
+
+</html>

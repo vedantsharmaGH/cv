@@ -1,0 +1,28 @@
+body {
+background-color: #232020;
+}
+hr {
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+border-top: 6px dotted grey;
+width: 45px ;
+}
+/*
+h1 {color: #00adb5;}
+h3 {color: #00adb5;}
+p {color:#eeeeee; }
+ol {color:#eeeeee; }
+ul {color: #eeeeee;}
+table {color:#eeeeee;}
+thead {color:#00adb5;
+a {color:gold;}
+label {color:#eeeeee;}
+ grey #706c61
+ redish orange #ff4d00
+*/
+.Heading {color:#ff7315;}
+.Generaltext {color:#f4f4f4;}
+.Linktext {color:#ff4d00;}
+a:hover{color:#f4f4f4;}
+.stars {color:gold;}
